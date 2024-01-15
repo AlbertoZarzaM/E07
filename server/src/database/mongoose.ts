@@ -14,6 +14,7 @@ if (process.argv[2] === 'test') {
 
 
 try {
+  console.log(bbdd);
   await connect(bbdd);
 } catch (error) {
   console.error(error);
